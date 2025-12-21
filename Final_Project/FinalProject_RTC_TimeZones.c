@@ -133,15 +133,13 @@ float	xvar, yvar, ans;
 		for (jDelay =0; jDelay< 1000; jDelay++);
 	    I2C_LCD_Command(slaveAddress, 0x01);		//Clear display
 		for (jDelay =0; jDelay< 1000; jDelay++);
-        
-   int doomsdayCounter = 0;     
+         
    while(1) {      /* infinite loop */
 				/*channel = 0x03;     75 for Temp,  19 for AN6 on RC2 pin 8 */
        RCSTA = (NINE_BITS|0x00);	
        if(!RB7) {
            zone = (zone+1) % 4;
            __delay_ms(100);
-           doomsdayCounter++;
         } else {
            //doomsdayCounter = 0;
         }
@@ -252,3 +250,4 @@ void init_a2d(void){
 	ADCON1=0x40;	// select Fosc/4 select Right Justify, Vrefs= Vss and Vdd
 	ADON=1;		// turn on the A2D conversion module
 }
+
