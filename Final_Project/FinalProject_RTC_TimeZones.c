@@ -5,8 +5,19 @@
  * VIVA Final Project (PIC16F1829 @ 4MHz)
  * DS3231/DS1307 RTC over I2C + I2C LCD
  * RB7 button cycles US time zones (P/M/C/E)
+ 
+ * NOTE:
+ * Portions of this code were provided as a course skeleton and modified
+ * during the final project to achieve working functionality on the
+ * VIVA UTSA board.
+ *
+ * Some unused variables and legacy setup code remain to preserve
+ * known-good behavior, as the original hardware setup is not currently
+ * available for re-testing.
+ *
+ * The code in its current form is verified to function as intended
+ * for the final project requirements.
  */
-
 
 // PIC16F1829 Configuration Bit Settings
 
@@ -249,5 +260,6 @@ void init_a2d(void){
 	ADCON1=0x40;	// select Fosc/4 select Right Justify, Vrefs= Vss and Vdd
 	ADON=1;		// turn on the A2D conversion module
 }
+
 
 
