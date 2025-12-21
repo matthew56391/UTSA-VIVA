@@ -141,7 +141,6 @@ float	xvar, yvar, ans;
            zone = (zone+1) % 4;
            __delay_ms(100);
         } else {
-           //doomsdayCounter = 0;
         }
        __delay_ms(5);
        __delay_ms(5);
@@ -250,4 +249,5 @@ void init_a2d(void){
 	ADCON1=0x40;	// select Fosc/4 select Right Justify, Vrefs= Vss and Vdd
 	ADON=1;		// turn on the A2D conversion module
 }
+
 
