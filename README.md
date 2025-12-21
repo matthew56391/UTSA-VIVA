@@ -12,4 +12,4 @@ VIVA UTSA embedded systems board.
 Early introductory labs have been intentionally omitted to keep the repository
 focused on more substantial work.
 
-All code was written and tested on the VIVA UTSA board.
+All code was developed and validated on the VIVA UTSA embedded systems board (PIC16F1829).
