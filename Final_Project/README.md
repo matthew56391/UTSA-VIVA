@@ -22,7 +22,6 @@ operation across multiple U.S. time zones using an external I2C RTC and I2C LCD.
 
 ### System Overview
 ![Board Overview](images/board_overview.jpg)
-![Full System Wiring](images/system_wiring.jpg)
 
 ### Time Zone Demonstration
 ![Eastern Time](images/rtc_est.jpg)
