@@ -14,6 +14,22 @@ The system runs on a PIC16F1829 configured for a 4 MHz internal oscillator. Time
 
 The project was implemented on the VIVA UTSA board using a PIC16F1829 microcontroller. An external DS3231 or DS1307 RTC module is connected via I2C, along with a 16×2 I2C LCD. A momentary pushbutton connected to RB7 is used for time zone selection.
 
+## Hardware Demonstration
+
+The images below show the final project implemented on the VIVA UTSA board.
+They demonstrate system wiring, peripheral integration, and real-time clock
+operation across multiple U.S. time zones using an external I2C RTC and I2C LCD.
+
+### System Overview
+![Board Overview](images/board_overview.jpg)
+![Full System Wiring](images/system_wiring.jpg)
+
+### Time Zone Demonstration
+![Eastern Time](images/rtc_est.jpg)
+![Central Time](images/rtc_cst.jpg)
+![Mountain Time](images/rtc_mst.jpg)
+![Pacific Time](images/rtc_pst.jpg)
+
 ## Repository Contents
 
 This repository contains the main firmware source file for the final project along with the I2C and I2C LCD driver headers and source files used in the course. These drivers handle low-level communication with the RTC and LCD hardware.
