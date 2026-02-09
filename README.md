@@ -1,7 +1,6 @@
 # UTSA VIVA Projects
 
-This repository contains selected projects and coursework developed for the
-VIVA UTSA embedded systems board.
+This repository is a curated selection of coursework and projects, highlighting system-level design, peripheral interfacing, and embedded fundamentals.
 
 ## Contents
 - **Final Project** – Full system-level embedded project
